@@ -1,0 +1,156 @@
+footer {
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+    text-align: center;
+    font-family: cursive;
+    padding-bottom: 10px;
+}
+
+footer p {
+    padding-top: 12px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.container {
+    margin-left: 10%;
+    margin-right: 5%;
+    margin-top: 2%;
+}
+
+.section-flex {
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.character {
+    width: 42%;
+    margin: 2%;
+    border: 5px red solid;
+    text-align: center;
+    border-radius: 8px;
+    background-color: rgb(255, 64, 64);
+    color: black;
+}
+
+.character img {
+    width: 80%;
+    border-radius: 3%;
+}
+
+header {
+    text-align: center;
+}
+
+.menu a:hover{
+    background-color: rgb(255, 64, 64);
+    border-radius: 8px;
+    border: 4px rgb(255, 64, 64) solid;
+}
+
+nav {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu li {
+    width: 10%;
+    list-style: none;
+}
+
+.menu a {
+    color: rgb(0, 0, 0);
+    font-family:cursive;
+    text-decoration: none;
+    padding-right: 0%;
+    padding-left: 0%;
+}
+
+.logo {
+    flex-grow: 3;
+}
+
+.logo img {
+    width: 15%;
+    padding-top: 6px;
+}
+
+h1 {
+    font-family: cursive;
+    font-size: 80px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 55px;
+    font-family: cursive;
+}
+
+img {
+    width: 20%;
+}
+
+div {
+    color: black;
+    text-align: center;
+    border: 5px red;
+}
+
+section {
+    display: flex;
+    align-items: center;
+}
+
+.informacion a {
+    padding-left: 20%;
+}
+
+li {
+    font-family: cursive;
+    font-size: 23px;
+}
+h1 {
+    text-align:center;
+    font-family: cursive;
+}
+label {
+    font-family: cursive;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    text-align: center
+}
+ body {
+    margin: 6px;
+    background-color: black;
+}
+ p {
+    text-align: center;
+    font-family: cursive;
+    color:rgb(255, 255, 255);
+    font-size: 26px;
+}
+ header {
+    color: white;
+}
+.formulario {
+    text-align: center;
+    border:5px rgb(255, 0, 0) solid;
+    background-color: rgb(255, 64, 64);
+    border-radius: 8px;
+    margin: 30%;
+    margin-top: 3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-bottom: 3%;
+}
+
+button {
+    width: 50%;
+    
+}
